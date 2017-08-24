@@ -94,4 +94,11 @@ function formToJSON() {
 }
 
 
+$('#btncikis').click(function() {
+	windowClose();
+	return false;
+});
 
+function windowClose() {
+	window.alert('Message goes here');
+}

@@ -1,0 +1,104 @@
+body {
+	padding:0px;
+	margin:0px;
+  background-image:url(https://images5.alphacoders.com/785/thumb-1920-785583.png);
+  font-family: helvetica, arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+  position:relative;
+  width:100%;
+  padding:100px 0px;
+  height:700px;
+}
+*{
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+.wellcomeText {
+  position:relative;
+  width:100%;
+  font-weight:600;
+  font-size:25px;
+  color:#ffffff;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.projectDesign {
+  position:absolute;
+  bottom:0px;
+  margin:0px;
+  width:100%;
+  text-align:center;
+  font-weight:15px;
+  font-size:13px;
+  color:#ffffff;
+}
+.password {
+  width:100%;
+  position:relative;
+  width:100%;
+  max-width:500px;
+  overflow:hidden;
+  padding:20px;
+  background-color:rgba(255,255,255,.2);
+  margin:0px auto;
+  border-radius:10px 10px 10px 10px;
+  
+	}
+.userName {
+  position:relative;
+  text-align:left;
+  color:#ffffff;
+  font-size:14px;
+  font-weight:600;
+  padding-top:7px;
+}
+.passwordText {
+  position:relative;
+  text-align:left;
+  color:#ffffff;
+  font-size:14px;
+  font-weight:600;
+  float:left;
+  padding-top:7px;
+   }
+ .inp {
+	 width:100%;
+	 max-width:280px;
+	 padding:7px;
+	 margin-left:20px;
+	 outline:none;
+	 }
+.user_name {
+	width:100%;
+	 max-width:280px;
+	 padding:7px;
+	 margin-left:13px;
+	outline:none;
+	margin-bottom:1px;
+	border:none;
+}
+.button {
+	position:relative;
+	margin:0px auto;
+	width:100%;
+	max-width:120px;
+	height:30px;
+	margin-left:170px;
+	color:green;
+	font-weight:600;
+	font-size:15px;
+	font-family:helvetica;
+	border:none; 
+	background-color:#b0bec5;
+}
+.button:hover {
+  background-color: rgba(0,0,0, .4);
+  background-color:#ffffff;
+  outline:none;
+  border:none;
+}

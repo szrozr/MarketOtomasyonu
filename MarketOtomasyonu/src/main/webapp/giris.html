@@ -1,17 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-<div align="center">
-<label id="label-1">Kullanıcıİsmi:</label>
-<input type="text" id="username" name="username"/> <br />
-<label id="label-1">Şifre:</label>
-<input type="password" id="password" name="password"/> <br />
-<input type="submit" id="btnGiris"/>
-</div>
+<div class="container"> 
+  <div class="wellcomeText">Hoş geldiniz! Lütfen giriş yapınız...</div>
+    <div class="password">
+	<div class="userName">User Name:<input class="user_name" type="text" placeholder="Kullanıcı Adı" id="username" name="username"/></div>
+	<div class="passwordText">Password:</div>
+	<input class="inp"type="password" value="" placeholder="Parola" id="password" name="password"/><br>
+	<button class="button" type="button" id="btnGiris">Giriş Yap</button>
+	</div>
+<div class="projectDesign">Project by - Tokmak-Tech Stajer Team</div>
 
 <script src="js/jquery-1.7.1.min.js"></script>
 <script src="js/main.js"></script>
