@@ -15,19 +15,19 @@ public class UrunDao {
 			ArrayList<UrunModel> urunList = new ArrayList<>();
 			
 
-			Connection c = null;
+			Connection con = null;
 		    String sql = "Select * from products";
 		    
 		    
 		    try {
-		         Connection con = DatabaseConnection.getConnection();
+		         con = DatabaseConnection.getConnection();
 		         Statement st = con.createStatement();
 		         ResultSet rs = st.executeQuery(sql);
 		         
 		         while(rs.next()) {
 		        	
 		        	 
-		        UrunModel urunler = new UrunModel();
+                 UrunModel urunler = new UrunModel();
 		         urunler.setId(rs.getInt("product_id"));
 	        	 urunler.setProduct_name(rs.getString("product_name"));
 	        	 urunler.setPrice(rs.getString("price"));
@@ -44,7 +44,7 @@ public class UrunDao {
 			            throw new RuntimeException(e);
 				
 				}finally {
-					DatabaseConnection.close(c);
+					DatabaseConnection.close(con);
 				}
 				
 				return urunList;

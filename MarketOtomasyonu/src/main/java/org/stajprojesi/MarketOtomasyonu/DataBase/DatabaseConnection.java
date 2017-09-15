@@ -11,7 +11,7 @@ public class DatabaseConnection {
 	public static Connection getConnection() throws ClassNotFoundException, SQLException {
 		
 		try {
-			 Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			return DriverManager.getConnection("jdbc:mysql://localhost:3306/marketdb?user=root&password=asd123123");
 			}catch (SQLException e) {
 			throw e;

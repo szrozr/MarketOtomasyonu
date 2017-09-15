@@ -1,4 +1,5 @@
 var urunUrl="http://localhost:8080/MarketOtomasyonu/webapi/urunler";
+var musteriUrl = "http://localhost:8080/MarketOtomasyonu/webapi/musteriler";
 var secilenUrunler = new Array();
 var toplamfiyat = 0.0;
 var tumUrunler = new Array();
@@ -30,6 +31,53 @@ function urunListele(){
 	});
 }
 
+//musteri bilgilerini cekme.
+
+function musteriSorgula() {
+	
+	$.ajax({
+		type: 'POST',
+		contentType: 'application/json',
+		url: musteriUrl,
+		dataType: "json",
+		data: formToJSON(),
+		success: function(data, textStatus, jqXHR){
+			//$('#wineId').val(data.id);
+			
+			$('#name').val(data.name);
+			$('#surname').val(data.surname);
+			$('#tel').val(data.tel);
+			$('#address').val(data.address);
+			
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			alert('addWine error: ' + textStatus);
+		}
+	});
+}
+
+
+function formToJSON() {
+	
+	return JSON.stringify({
+		
+		"musteriNo": $('#musteriNo').val() 
+		
+		});
+}
+
+$('#musteriNo').keypress(function(e){
+	if(e.which == 13){
+		musteriSorgula();
+	}
+});
+
+
+
+
+
+
+
 function renderList(data) {
 	// JAX-RS serializes an empty list as null, and a 'collection of one' as an object (not an 'array of one')
 	var list = data == null ? [] : (data instanceof Array ? data : [data]);
@@ -52,10 +100,6 @@ function renderList2(data) {
     $('#urunListe').addClass('aramaSonuc');
 }
 
-
-function tumUrunleriDiziyeAl(){
-
-}
 
 
 $('#secButonu').click(function(){
@@ -196,6 +240,13 @@ $('#qr_src_in1').keypress(function(e){
 	    		return;
 	    	}
 	    }
+		
+	}
+});
+
+
+$('#musteriNo').keypress(function(e){
+	if(e.which == 13){
 		
 	}
 });
