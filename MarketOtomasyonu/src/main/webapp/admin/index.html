@@ -5,7 +5,7 @@
 <title>Admin Sayfası</title>
 <link rel="stylesheet" type="text/css" href="../css/adminstyle.css"/>
 <script   src="../js/jquery-3.2.1.min.js"></script>
-<script  src="../js/main.js"></script>
+<script  src="../js/mainpage.js"></script>
 </head>
 
 <body>
@@ -21,10 +21,10 @@ Hoşgeldiniz Yapılacak İşlemi Seçiniz:
 <a href="kullanıcı_bilgileri.html" target=""><input type="button" class="register_info" value="Kullanıcı Bilgileri Düzenle"  onclick="location.href=this.parentNode.click()"></a>
 <a href="satıs_raporları.html" target=""><input type="button" class="sale_reports" value="Satıs Raporları"  onclick="location.href=this.parentNode.click()"></a>
 <div class="bottom1">
-<a href="market.html"target=""><input type="button" class="change_user" value="Kullanıcı Değiştir" onClick="location.href=thisparentNode.click()"></a>
+<a href="/MarketOtomasyonu/logout"target=""><input type="button" class="change_user" value="Kullanıcı Değiştir" onClick="location.href=thisparentNode.click()"></a>
 </div>
 <div class="bottom2">
-<input type="button" id="btncikis"  value="Programdan Çık" />
+<input type="button" id="btncikis" class="quit" value="Programdan Çık" onclick="windowClose();"/>
 </div>
 </div>
 </div>

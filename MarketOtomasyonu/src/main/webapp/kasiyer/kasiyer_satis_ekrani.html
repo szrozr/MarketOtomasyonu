@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Kasiyer Satış Sayfası</title>
+  <link rel="stylesheet" type="text/css" href="../css/kasiyer_satis_ekrani.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+  
+ <!--  <style type="text/css">
+  
+.change_table_row{
+	background-color: #edeeef;
+}
+  
+  </style> -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+      <div class="header_text">T-TECH</div>
+      <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+      <div class="time">23.08.2017</div>
+      <div class="user">LEVENT TEKİN</div>
+      <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="middle_con">
+      <div class="sales">Satış İşlemleri</div>
+      <div class="middle_con_in">
+        <div class="under_left">
+          <div class="costumer">Müşteri No:<input class="costumer_in1" type="number" name="number" placeholder="Müşteri No"></div>
+          <div class="costumer1">Müşteri Adı:<input class="costumer_in" type="text" name="ad" placeholder="Müşteri Adı"></div>
+          <div class="costumer1">Müşteri Soyadı:<input class="costumer_in2" type="text" name="soyad" placeholder="Müşteri Soyadı"></div>
+          <div class="costumer1">Müşteri Tel:<input class="costumer_in3" type="tel" name="tel" placeholder="Müşteri Telefon"></div>
+          <div class="costumer1">Müşteri Adres:<input class="costumer_in4" type="text" name="adress" placeholder="Müşteri Adress"></div>
+        </div>
+        <div class="under_right">
+          <div class="costumer1">Toplam Tutar:<input class="total" id="toplamTutarInput" type="number" name="toplam"></div>
+          <div class="costumer1">İskonto:<input class="total1" type="number" name="toplam"></div>
+          <div class="costumer1">KDV%18:<input class="total2" type="number" name="toplam"></div>
+          <div class="costumer1">Alınan Para:<input class="total3" id="alinanParaInput" type="number" name="toplam"></div>
+          <div class="costumer1">Para Üstü:<input class="total4" id="paraUstuInput" type="number" name="toplam"></div>
+        </div>
+      </div>
+      <div class="sale_display">
+        <div class="top_display">
+          <div id="qr_src1">Ürün Barkod:<input id="qr_src_in" type="search" value="" placeholder="Ürün Kodu Giriniz"></div>
+          <div id="qr_src">Ürün Ara:<input id="qr_src_in1" type="search" value="" placeholder="Ürün Adı Giriniz"></div>
+        </div>
+
+
+       <br><br>
+        
+         <div class="sales_area_baslik">
+          <label class="urunListeLabel">Ürün Listesi:</label>
+         </div>
+
+ 			<div class="sales_area_baslik1">
+          <label class="urunListeLabel">Seçilen ürünler:</label>
+         </div>
+
+          <br><br>   
+        <div class="sales_area">
+          <table id="urunListe" >
+         <thead>
+           <tr><th>id</th> <th>Ürün İsmi</th> <th>Fiyat</th> <th>Miktar</th> <th>Şube ID</th> <th>Barkod No</th></tr>
+         </thead>
+         <tbody>
+         
+         </tbody>
+          </table>
+        </div>
+
+         <div class="sales_area1">
+         <table id="urunListe1" >
+         <thead>
+           <tr><th>id</th> <th>Ürün İsmi</th> <th>Fiyat</th> <th>Miktar</th> <th>Şube ID</th> <th>Barkod No</th></tr>
+         </thead>
+         <tbody>
+         
+         </tbody>
+          </table>
+        </div>
+        
+      </div>
+      <div class="process">
+       <!--  <div class="process_in"> -->
+         
+          <button class="delete_pro" id="secButonu">Seç</button>
+          
+       <!--  </div> -->
+      </div>
+      <div class="SecilmisButonDiv">
+      	<button class="secilmisButon" id="onaylaButonu">Onayla</button>
+      	<button class="secilmisButon" id="temizleButonu">Temizle</button>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="../js/kasiyerSatis.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 var rootURL = "http://localhost:8080/MarketOtomasyonu/webapi/myresource";
 var userURL = "http://localhost:8080/MarketOtomasyonu/webapi/user";
+var urunURL = "http://localhost:8080/MarketOtomasyonu/webapi/urunler";
 
 var currentNesne;
 
@@ -79,7 +80,7 @@ function girisYap() {
 		
 		},
 		error: function(jqXHR, textStatus, errorThrown){
-			alert('girisYap: ' + textStatus);
+			alert('Giriş Yapılamadı: ' + textStatus);
 		}
 	});
 }

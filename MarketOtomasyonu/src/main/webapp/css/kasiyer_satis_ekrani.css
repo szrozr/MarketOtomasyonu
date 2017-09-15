@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+  margin: 0px auto;
+  background-color: #e9ebee;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  background-color: #CFCFCF;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 900px;
+}
+.header {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  background-color: #eeff41;
+  float: left;
+  display: inline-block;
+}
+.fa-shopping-cart {
+  float: left;
+  display: inline-block;
+  margin-right: 5px;
+}
+.header_text {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  margin-right: 225px;
+  padding: 6px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fa-clock-o {
+  padding: 3px;
+  float: left;
+  display: inline-block;
+}
+.time {
+  font-size: 18px;
+  font-weight: 600;
+  float: left;
+  padding: 7px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.user {
+  float: right;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fa-user {
+  padding: 3px;
+  float: right;
+}
+.middle_con {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: inline-block;
+  height: 700px;
+  background-color: #fff;
+}
+.sales {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #18ffff;
+  padding: 10px;
+}
+.middle_con_in {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+.under_left {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  float: left;
+}
+.costumer {
+  position: relative;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px;
+  float: left;
+  border-bottom: 1px solid #BCB9B9;
+  margin-bottom: 1px;
+  width: 100%;
+  display: flex;
+}
+.costumer1 {
+  position: relative;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px;
+  float: left;
+  border-bottom: 1px solid #BCB9B9;
+  margin-bottom: 1px;
+  width: 100%;
+  display: flex;
+}
+.costumer_in1 {
+  margin-left: 50px;
+  margin-right: 15px;
+  outline: none;
+  width: 64%;
+  padding: 2px;
+}
+.costumer_in {
+  margin-left: 45px;
+  margin-right: 15px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.costumer_in2 {
+  margin-left: 15px;
+  margin-right: 15px;
+  outline: none;
+  width: 64%;
+  padding: 2px;
+}
+.costumer_in3 {
+  margin-left: 50px;
+  outline: none;
+  width: 64%;
+  padding: 2px;
+}
+.costumer_in4 {
+  margin-left: 23px;
+  outline: none;
+  width: 64%;
+  padding: 2px;
+}
+.under_right {
+  position: relative;
+  display: inline-block;
+  width: 420px;
+}
+.total {
+  margin-left: 15px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.total1 {
+  margin-left: 62px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.total2 {
+  margin-left: 52px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.total3 {
+  margin-left: 27px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.total4 {
+  margin-left: 42px;
+  outline: none;
+  padding: 2px;
+  width: 64%;
+}
+.sale_display {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  float: left;
+}
+#qr_src {
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+#qr_src1 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 51px;
+}
+#qr_src_in {
+  outline: none;
+  margin-left: 5px;
+  padding: 2px;
+  width: 300px;
+  float: right;
+}
+
+#qr_src_in1 {
+  outline: none;
+  margin-left: 5px;
+  padding: 2px;
+  width: 300px;
+  float: right;
+}
+.sales_area {
+  position: relative;
+  width: 47%;
+  height: 400px;
+  background-color: #f7f8f9;
+  float: left;
+ 
+  margin-top: 5px;
+  overflow-y: scroll;"
+}
+
+.sales_area1 {
+  position: relative;
+  width: 47%;
+  height: 400px;
+  background-color: #f7f8f9;
+  float: right;
+ 
+  margin-top: 5px;
+  overflow-y: scroll;"
+}
+.leftArea {
+  position: relative;
+}
+.process {
+   position: relative;
+   width: 45%;
+   height: 65px;
+   display: inline-block;
+   text-align: center;
+}
+
+
+/*.process_in {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}*/
+.delete_pro {
+  margin-top: 18px;
+  width: 30%;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.SecilmisButonDiv{
+  position: relative;
+  width: 45%;
+  height: 65px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+.secilmisButon{
+  width: 30%;
+  text-align: center;
+  width: 30%;
+  height: 30px;
+  display: inline-block;
+  margin-top: 18px;
+}
+
+
+.satis_buton{
+  float: left;
+}
+
+.sales_area_baslik{
+ float: left;
+ display: inline-block;
+ width: 48%;
+ text-align: left;
+  border: 1px dotted red;
+}
+
+.sales_area_baslik1{
+  float: right;
+  border: 1px dotted red;
+ display: inline-block;
+ text-align: left;
+ width: 49%;
+}
+
+.urunListeLabel{
+  position: relative;
+  display: inline-block;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#urunListe ,td{
+	border: 0.005px solid gray;
+}
+
+#urunListe th,td{
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: underline; 
+	width: 50px;
+}
+
+#urunListe{
+	float:left;
+
+	
+}
+
+.aramaSonuc{
+	float:left;
+	width: 100%;
+}
+
+#urunListe1{
+	float:right;
+	width: 100%;
+}
+
+#urunListe1 ,td{
+	border: 0.005px solid gray;
+}
+
+#urunListe1 th,td{
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: underline; 
+	width: 50px;
+}
+
+.change_table_row{
+	background-color: #edeeef;
+}
+
+.change_selected_row{
+	background-color: #cce3f9;
+}
+
+
