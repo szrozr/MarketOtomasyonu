@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	width:400px;
+	margin:0 auto;
+	background-color:#E3E3E3;
+	position:relative;
+}
+.user {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	}
+.user_in {
+	margin-left:85px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in1 {
+	margin-left:55px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in2 {
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in3 {
+	margin-left:70px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in4 {
+	margin-left:28px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in5 {
+	margin-left:12px;
+	outline:none;
+	width:200px;
+	padding:2px;
+	}
+.user1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	position:relative;	
+	}
+.buttons {
+	display:block;}
+.save {
+
+	display:inline-block;
+	width:80px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	padding:2px;}
+	
+#butonContainer{
+	text-align: center;
+}
+.clear {
+	
+	display:inline-block;
+	width:80px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	padding:2px;
+	margin-right:70px;}
+	
+	.input_toggle{
+	background-color: #fcaeae;
+	color: white;
+	}
+	
+	#uyari{
+	text-align: center;
+	color: red;
+	width: 100%;
+	
+	}

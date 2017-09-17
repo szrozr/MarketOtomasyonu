@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kullanıcı Bilgileri Düzenleme</title>
+<link rel="stylesheet" type="text/css" href="../css/kullanici_bilgileri.css">
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+<div class="user">Ad: <input class="user_in" id="ad" type="text" name="ad" placeholder="Adınız"></div>
+<div class="user">Soyad: <input class="user_in1" id="soyad" type="text" name="soyad" placeholder="Soyadınız"></div>
+<div class="user">Kullanıcı Adı: <input class="user_in2" id="kullanici_adi" type="text" name="Kullanıcı" placeholder="Kullanıcı Adı"></div>
+<div class="user">Şifre: <input class="user_in3" id="sifre" type="password" name="parola" placeholder="Şifre"></div>
+<div class="user">Yeni Şifre: <input class="user_in4" id="yeni_sifre" type="password" name="parola" placeholder="Yeni Şifre"></div>
+<div class="user1">Şifre Tekrar: <input class="user_in5" id="sifre_tekrar" type="password" name="parola" placeholder="Yeni Şifre Tekrar"></div>
+<div class="buttons">
+<div style="text-align: center"><label id="uyari" ></label></div><br>
+<div id="butonContainer">
+<button class="save" id="geriDonButonu" onclick="location.href='index.html';">GeriDön</button>
+<button class="save" id="kaydetButonu">Kaydet</button>
+<button class="clear" id="temizleButonu">Temizle</button>
+</div>
+
+
+
+</div>
+
+</div>
+<script type="text/javascript" src="../js/kullaniciBilgileri.js"></script>
+</body>
+</html>

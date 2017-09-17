@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+<link rel="stylesheet" type="text/css" href="../css/musteri_ekle.css">
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<div class="user">Ad: <input class="user_in" id="ad"  type="text" name="ad" placeholder="Adınız"></div>
+<div class="user">Soyad: <input class="user_in1" id="soyad" type="text" name="soyad" placeholder="Soyadınız"></div>
+<div class="user">Telefon:<input type="tel" class="user_in2" id="telefon" placeholder="Telefon"></div>
+<div class="user">Adres:<input class="user_in3" type="text" id="adres" name="adress" placeholder="Adres"></div>
+<div class="user">ŞubeID:<input class="user_in4" type="text" id="subeid" name="subeid" placeholder="ŞubeID"></div>
+<div id="labeDiv">
+<label id="uyari"></label></div><br>
+<div id="butonContainer">
+<button class="save" id="geriDonButonu" onclick="location.href='index.html';">GeriDön</button>
+<button class="save" id="kaydetButonu">Kaydet</button>
+<button class="clear" id="temizleButonu">Temizle</button>
+</div>
+
+</div>
+<script type="text/javascript" src="../js/musteriEkle.js"></script>
+</body>
+</html>

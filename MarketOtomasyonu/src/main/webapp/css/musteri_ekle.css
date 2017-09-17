@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	position:relative;
+	width:400px;
+	background-color:#e3e3e3;
+	margin:0 auto;
+	}
+.user {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	}
+.user_in {
+	margin-left:85px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in1 {
+	margin-left:55px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in2 {
+	margin-left:51px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+.user_in3 {
+	margin-left:63px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+	
+	
+.user_in4 {
+	margin-left:51px;
+	outline:none;
+	width:200px;
+	padding:2px;}
+
+#butonContainer{
+	text-align: center;
+}
+
+.save {
+
+	display:inline-block;
+	width:80px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	padding:2px;}
+	.clear {
+	
+	display:inline-block;
+	width:80px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	padding:2px;
+	margin-right:70px;}
+	
+	#uyari{
+	   height: 5px;
+	   	text-align: center;
+	color: red;
+	width: 100%;
+	}
+
+	.input_toggle{
+	background-color: #fcaeae;
+	color: white;
+	}
+	
+	#labeDiv{
+	text-align: center;
+	}
+	

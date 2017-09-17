@@ -1,7 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-@charset "utf-8";
-/* CSS Document */
 * {
 	margin:0px auto;
 	box-sizing:border-box;
@@ -16,7 +14,7 @@
 	margin:0px auto;
 	width:100%;
 	max-width:900px;
-	height:520px;
+	height:700px;
 	background-color:#D3D2D2;
 	overflow-hidden;
 	}
@@ -36,6 +34,17 @@
 	position:relative;
 	over-flow:hidden;
 	padding-left:36px;
+	}
+.admin {
+	margin-top:100px;
+	width:100%;
+	width:250px;
+	height:70px;
+	background-color:#e65100;
+	color:#ffffff;
+	font-size:18px;
+	border:none;
+	outline:none;
 	}
 .cassier {
 	margin-top:40px;
@@ -75,7 +84,7 @@ a {
 	}
 .bottom1 {
 	float:left;
-
+	
 	}
 .change_user {
 	margin-top:40px;
@@ -102,4 +111,3 @@ a {
 	bottom:70px;
 	right:-326px;
 	}
-

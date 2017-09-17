@@ -1,8 +1,11 @@
 var rootURL = "http://localhost:8080/MarketOtomasyonu/webapi/myresource";
 var userURL = "http://localhost:8080/MarketOtomasyonu/webapi/user";
 var urunURL = "http://localhost:8080/MarketOtomasyonu/webapi/urunler";
+var userGetUrl = "http://localhost:8080/MarketOtomasyonu/webapi/user";
 
 var currentNesne;
+var currentUser;
+
 
 findAll();
 getUser();
@@ -70,10 +73,12 @@ function girisYap() {
 		data: formToJSON(),
 		success: function(data, textStatus, jqXHR){
 			if(data.sonuc=="admin"){
+				 currentUser = data.sonuc;
 				 top.location.href = '/MarketOtomasyonu/admin/index.html';
 			}
 			
 			else if(data.sonuc=="kasiyer"){
+				 currentUser = data.sonuc;
 				 top.location.href = '/MarketOtomasyonu/kasiyer/index.html';
 			}
 				
@@ -90,7 +95,9 @@ function formToJSON() {
 	
 	return JSON.stringify({		
 		"username": $("#username").val(),
-		"password": $("#password").val()
+		"password": $("#password").val(),
+		"purpose":  "login",
+		
 		});
 }
 
@@ -103,3 +110,12 @@ $('#btncikis').click(function() {
 function windowClose() {
 	window.alert('Message goes here');
 }
+
+
+
+
+//kullanici bilgileri sayfasi 
+//$('#currentUser').click();
+
+
+

@@ -232,7 +232,7 @@ $('#qr_src_in1').keypress(function(e){
 		});
 		
 		var girilenBarkod = $('#qr_src_in1').val();
-		alert('girilen ürün ismi: ' + girilenBarkod);
+		//alert('girilen ürün ismi: ' + girilenBarkod);
 	    for(var i=0; i<tumUrunler.length; i++){
 	    	if(tumUrunler[i]['urun_ismi'] == girilenBarkod){
 	    		//alert('ürün bulundu!');

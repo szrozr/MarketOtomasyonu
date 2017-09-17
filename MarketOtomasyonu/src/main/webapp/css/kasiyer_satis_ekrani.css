@@ -12,6 +12,16 @@ html, body {
   -moz-box-sizing: border-box;
 }
 
+
+
+.back-adm {
+	float:right;
+	width:100px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:600;
+	font-size:18px;
+	}
+
 .container {
   position: relative;
   background-color: #CFCFCF;
@@ -80,7 +90,14 @@ html, body {
   text-align: center;
   background-color: #18ffff;
   padding: 10px;
+   position:relative;
+  float:left;
+  display:inline-block;
+  width:100%;
 }
+
+
+
 .middle_con_in {
   width: 100%;
   position: relative;
